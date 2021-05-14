@@ -39,7 +39,6 @@ Corresponde a um caracter de um conjunto específico. Existem várias classes de
 |`\D`|not digit|Corresponde a qualquer caractere que não seja um caractere de dígito (0-9). Equivalente a `[^0-9]`.|
 |`\s`|whitespace|Corresponde a qualquer caractere de espaço em branco (espaços, tabulações, quebras de linha).|
 |`\S`|not whitespace|Corresponde a qualquer caractere que não seja um caractere de espaço em branco (espaços, tabulações, quebras de linha).|
-[Para mais exemplos clique aqui](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/RegExp#character-classes)
 
 ### Quantificadores
 
