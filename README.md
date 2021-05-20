@@ -22,7 +22,7 @@ Uma expressão regular é composta de âncoras, conjuntos de caracteres, quantif
 
 ## Como funciona?
 
-<img src="./assets/fluxo.png" width="200" style="display: block; margin: 0 auto;" />
+<img src="./assets/fluxo.png" width="300" style="display: block; margin: 0 auto;" />
 
 ## Conhecendo os recursos
 
