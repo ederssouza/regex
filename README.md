@@ -20,6 +20,8 @@ Uma expressão regular é composta de âncoras, conjuntos de caracteres, quantif
 
 /<code style="background: #cff4fc; color: #055160;">[ANCHOR]</code><code style="background: #d1e7dd; color: #0f5132;">[CHARACTER SET]</code><code style="background: #fff3cd; color: #664d03;">[QUANTIFIERS]</code><code style="background: #cff4fc; color: #055160;">[ANCHOR]</code>/<code style="background: #f8d7da; color: #842029;">[FLAGS]</code>
 
+![Fluxo](/assets/fluxo.png)
+
 ## Conhecendo os recursos
 
 ### Conjunto ou classes de caracteres
