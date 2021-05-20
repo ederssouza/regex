@@ -98,3 +98,4 @@ Os grupos permitem combinar uma sequência de tokens para operar juntos. Os grup
 - [RegExr](https://regexr.com)
 - [Rubular](https://rubular.com)
 - [regex101](https://regex101.com)
+- [Tabela ASCII](https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm)
