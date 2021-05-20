@@ -18,7 +18,7 @@ Existem duas formas de declarar uma expressão regular:
 
 Uma expressão regular é composta de âncoras, conjuntos de caracteres, quantificadores e flags.
 
-/[ANCHOR][CHARACTER SET][QUANTIFIERS][ANCHOR][FLAGS]/
+/[ANCHOR] [CHARACTER SET] [QUANTIFIERS] [ANCHOR] [FLAGS]/
 
 ## Como funciona?
 
