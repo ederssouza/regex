@@ -34,7 +34,8 @@ Corresponde a um caracter de um conjunto específico. Existem várias classes de
 |:-|:-|:-|
 |`[abc]`|character set|Corresponde a qualquer caractere do conjunto.|
 |`[^abc]`|negated set|Corresponde a qualquer caractere que não esteja no conjunto.|
-|`[a-z]`|range|Corresponde a um caractere entre os dois caracteres especificados, no nosso caso de `a` até `z`.|
+|`[a-z]`|range|Corresponde a um caractere entre os dois caracteres especificados, no nosso caso de `a` até `z` na tabela ASCII.|
+|`[à-ü]`|range|Corresponde a um caractere entre os dois caracteres especificados, no nosso caso de `à` até `ü` na tabela ASCII.|
 |`.`|dot|Corresponde a qualquer caractere, exceto quebras de linha. Equivalente a `[^\n\r]`.|
 |`[\s\S]`|match any|Um conjunto de caracteres que pode ser usado para corresponder a qualquer caractere, incluindo quebras de linha.|
 |`\w`|word char|Corresponde a qualquer caractere de palavra (alfanumérico e sublinhado). Equivalente a `[A-Za-z0-9_]`.|
