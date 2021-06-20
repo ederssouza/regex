@@ -56,7 +56,7 @@ Os quantificadores indicam que o token anterior deve ser correspondido um certo 
 |`{m, n}`|quantifier|de `m` até `n` ou `{min, max}`.|
 |`?`|optional|zero ou uma ocorrência, equivalente a `{0,1}`.|
 |`?`|lazy|Torna o quantificador anterior lento, fazendo com que ele corresponda ao mínimo de caracteres possível.|
-|`|`|alternation / pipe|Atua como um operador `OR`.|
+|```|```|alternation / pipe|Atua como um operador `OR`.|
 
 ### Âncoras
 
