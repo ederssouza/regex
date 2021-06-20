@@ -18,7 +18,7 @@ Existem duas formas de declarar uma expressão regular:
 
 Uma expressão regular é composta de âncoras, conjuntos de caracteres, quantificadores e flags.
 
-/[ANCHOR] [CHARACTER SET] [QUANTIFIERS] [ANCHOR] [FLAGS]/
+/[ANCHOR] [CHARACTER SET] [QUANTIFIERS] [ANCHOR]/[FLAGS]
 
 ## Como funciona?
 
@@ -51,9 +51,9 @@ Os quantificadores indicam que o token anterior deve ser correspondido um certo 
 
 |Caractere|Nome|Descrição|
 |:-|:-|:-|
-|`+`|plus|uma ou mais ocorrências, equivalente a `{0,}`.|
-|`*`|star|zero ou mais ocorrências, equivalente a `{1,}`.|
-|`{n, m}`|quantifier|de `n` até `m`.|
+|`*`|star|zero ou mais ocorrências, equivalente a `{0,}`.|
+|`+`|plus|uma ou mais ocorrências, equivalente a `{1,}`.|
+|`{m, n}`|quantifier|de `m` até `n` ou `{min, max}`.|
 |`?`|optional|zero ou uma ocorrência, equivalente a `{0,1}`.|
 |`?`|lazy|Torna o quantificador anterior lento, fazendo com que ele corresponda ao mínimo de caracteres possível.|
 |`|`|alternation / pipe|Atua como um operador `OR`.|
